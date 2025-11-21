@@ -8,7 +8,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import os
 
 class LegalTextGenerator:
-    def __init__(self, model_path="apple_silicon_models/final_model"):
+    def __init__(self, model_path="."):
         """Initialize the legal text generator"""
         self.model_path = model_path
         self.model = None
