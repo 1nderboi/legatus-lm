@@ -1,0 +1,32 @@
+# Core ML frameworks
+torch>=2.0.0
+transformers>=4.35.0
+datasets>=2.14.0
+accelerate>=0.24.0
+
+# Lightweight models
+sentencepiece
+protobuf
+tokenizers
+
+# Data generation and processing
+numpy>=1.24.0
+pandas>=1.5.0
+scikit-learn>=1.3.0
+
+# Evaluation and monitoring
+evaluate>=0.4.0
+wandb>=0.15.0
+tensorboard>=2.14.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Optional: for specific model architectures
+bitsandbytes>=0.41.0  # For 4-bit quantization
+peft>=0.6.0  # Parameter Efficient Fine Tuning
+trl>=0.7.0  # Transformer Reinforcement Learning
+fastapi>=0.100.0
+uvicorn>=0.20.0
